@@ -4,7 +4,7 @@ import './ImageLinkForm.css';
 const ImageLinkForm = ({ onInputChange, onButtonSubmit }) => {
   return (
     <div>
-      <p className='f3'>
+      <p className='f3 white'>
         {'Insert a URL to an image that contains at least one face. This app will then detect and draw a square around it!'}
       </p>
       <div className='center'>
